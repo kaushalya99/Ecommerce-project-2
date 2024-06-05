@@ -47,7 +47,7 @@
         max-width:100px;
     }
     nav .mega .women-brands li{
-        
+        min-width: 80px;
     }
 }
 
