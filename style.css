@@ -49,6 +49,21 @@
     nav .mega .women-brands li{
         min-width: 80px;
     }
+    nav .mega .view-all{
+        margin-top: 1em;
+    }
+    nav .mega .products{
+        flex:2;
+        padding:0;
+        align-items: center;
+        position:relative;
+    }
+    nav .mega .products .row{
+        width: var(--percent100);
+    }
+    nav .mega .products .media{
+        height:400px;
+    }
 }
 
 h4 {
@@ -110,6 +125,22 @@ h4 {
     font-size: 1.75em;
     padding: 0 0.75em 0 0;
 }
+.mobile-hide{
+    display:none;
+}
+
+.object-cover img{
+    position: absolute;
+    object-fit: cover;
+    width: var(--percent100);
+    height: var(--percent100);
+    display: block;
+}
+.products .media{
+    position:relative;
+    flex-shrink: 0;
+    overflow:hidden;
+}
 
 
 
@@ -136,7 +167,6 @@ header li > a {
 .header-top .wrapper ul{
     gap: 2em;
 }
-
 .header-top li{
     position: relative;
 }
